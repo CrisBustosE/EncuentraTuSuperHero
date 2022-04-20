@@ -1,0 +1,55 @@
+body{
+    background-image: url('../img/387023.jpg');
+    background-size:cover;
+    font-family: 'Rajdhani', sans-serif;
+}
+/* Navbar */
+.navLogo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10%;
+}
+.textLogo{
+    color: white;
+    vertical-align: middle;
+}
+
+/* Seccion Central */
+
+.heroLogo{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10%;
+    width: 26rem;
+    height: 18rem;
+}
+#labelInput{
+    color: white;
+}
+/* margen extra para alinear el boton de busqueda */
+#buscador{
+    margin-left: 12px;
+}
+
+/* Card */
+/* Para dejar solo las conexiones del heroe sin ser italic */
+/* #cardStats p:not(.heroCon){
+       font-style: italic;
+} */
+#cardStats .stats{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+/* Localizacion etiqueta cuando se encuentra */
+.spanHero{
+    color:white; 
+    font-size: 1.5rem;
+}
+
+/* Chart */ 
+/* Borde redondo para el grafico */
+
+#chartContainer canvas{
+    margin-top: 36px;
+    border-radius: 1%;
+}
